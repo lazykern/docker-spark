@@ -1,6 +1,4 @@
-FROM bde2020/spark-maven-template:3.3.0-hadoop3.3
-
-LABEL MAINTAINER="Gezim Sejdiu <g.sejdiu@gmail.com>"
+FROM phusitsom/spark-maven-template:3.3.2-hadoop3
 
 ENV SPARK_APPLICATION_JAR_NAME Docker-Maven-Template-0.1.0-SNAPSHOT
 ENV SPARK_APPLICATION_MAIN_CLASS eu.bde.template.maven.WordCount

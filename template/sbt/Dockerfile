@@ -1,6 +1,4 @@
-FROM bde2020/spark-submit:3.3.0-hadoop3.3
-
-LABEL maintainer="Gezim Sejdiu <g.sejdiu@gmail.com>, Giannis Mouchakis <gmouchakis@gmail.com>"
+FROM phusitsom/spark-submit:3.3.2-hadoop3
 
 ARG SBT_VERSION
 ENV SBT_VERSION=${SBT_VERSION:-1.6.2}
